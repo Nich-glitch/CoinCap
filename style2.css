@@ -291,7 +291,7 @@ width:100%;
     .bluelink {
         color:#0d87c4;
         font-weight: bold;
-        font-size:1.2em;
+        font-size:1.4em;
         display:inline-flex;
         padding-right:50px;
         padding-top:30px;
@@ -354,9 +354,102 @@ width:100%;
     }
 
     .yeardesc {
-        font-size:1.2em;
+        font-size:1.4em;
         color:#728a96df;
         width:80%;
     }
 
-    
+    .bcatop {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top:10%;
+    }
+
+    .bcatl {
+        font-weight: bold;
+        font-size:4em;
+    }
+
+    .bcadesc {
+        font-size:1.4em;
+        color:#728a96df;
+        width:80%;
+        text-align: center;
+        
+    }
+
+
+
+    .bcatbl {
+        display:flex;
+        padding:20px 30px 10px 20px;
+        border: solid grey 1px;
+        border-radius: 1cm;
+        justify-content: space-around;
+        width:90%;
+        margin-top:10%;
+        margin-left:5%;
+        
+    }
+
+    .bcatbl .column {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size:1.4em;
+        align-items: center;
+        width:20%;
+        
+
+    }
+
+    .bcatbl span {
+        line-height: 400%;
+    }
+
+    .bcatbl img {
+        width:80px;
+    }
+
+    .bcatbl .tl {
+        font-weight: bold;
+    }
+    .bcatbl .first {
+        padding-top:12%;
+        display:flex;
+        flex-direction: column;
+        font-size:1.4em;
+        font-weight: bold;
+        width:20%;
+        margin-left:5%;
+
+    }
+
+    .wrap {
+        line-height: normal;
+    }
+
+    .bcatbl .second {
+        
+        background-color: #f7f9fb;
+        border-radius:0.5cm;
+        margin-top:0.5%;
+        text-align: center;
+    }
+
+    .bcadesc2 {
+        font-size:1.2em;
+        color:#728a96b7;
+        width:80%;
+        text-align: center;
+        margin-left:10%;
+        
+    }
+
+    .bcadesc2 a {
+        color:#728a96b7;
+    }
+    .bcadesc2 a:hover {
+        color:#8ad1f4;
+    }
