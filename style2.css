@@ -95,7 +95,7 @@ nav .container {
 
 .container {
     width:100%;
-    max-width: 1524px;
+    max-width: 1324px;
     margin:auto;
     align-items: center;
 }
@@ -120,7 +120,7 @@ width:140px;
     cursor:pointer;
 }
 
-img {
+.source img {
     width:40px;
     padding-right:10px;
 }
@@ -170,7 +170,7 @@ width:30%;
     display:inline-block;
     font-size: 25px;
     margin-top:20px;
-
+    align-content: center;
 }
 .bluebtn {
     background-color: rgb(74, 155, 217);
@@ -384,7 +384,7 @@ width:100%;
     .bcatbl {
         display:flex;
         padding:20px 30px 10px 20px;
-        border: solid grey 1px;
+        border: solid rgba(190, 177, 177, 0.722) 1px;
         border-radius: 1cm;
         justify-content: space-around;
         width:90%;
@@ -444,6 +444,7 @@ width:100%;
         width:80%;
         text-align: center;
         margin-left:10%;
+        padding-bottom:10%;
         
     }
 
@@ -453,3 +454,180 @@ width:100%;
     .bcadesc2 a:hover {
         color:#8ad1f4;
     }
+
+    .black {
+        background-color: rgb(44, 44, 49);
+        padding-bottom:5%;
+    }
+
+    .bctop {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bctl {
+
+        font-weight: bold;
+        font-size:4em;
+        color:white;
+        padding-top:5%;
+    }
+
+    .bcdesc {
+        text-align: center;
+        color:rgb(145, 138, 138);
+        font-size: 1.4em;
+        width:50%;
+    }
+
+    .git {
+        padding-right:10px
+    }
+
+    .bcbtm {
+        background-color: rgba(61, 59, 59, 0.579);
+        border-radius:1cm;
+        padding-bottom: 5%;
+        margin-top:5%;
+        position:relative;
+    }
+    .bctbltop {
+        font-size: 2em;
+        background-color: rgba(30, 30, 30, 0.85);
+        padding:1% 5% 1% 5%;
+        z-index: 2;
+        border-radius: 1cm 1cm 0 0;
+        
+    }
+
+    .red {
+        color:red;
+    }
+    .yellow {
+        color:yellow;
+    }
+    .green {
+        color: green;
+    }
+
+    .bctblleft {
+        display: flex;
+        flex-direction: column;
+        width:30%;
+        font-size:1.2em;
+        font-weight: bold;
+        width:20%;
+        margin-left:5%;
+        color:white;
+        line-height: 400%;
+        margin-top:5%;
+        
+    }
+
+    .bctblleft span:hover {
+        padding:0 -10%;
+        background-color:rgba(115, 110, 110, 0.707) ;
+        transition: 0.5s;
+        cursor: pointer;
+        filter:brightness(110%);
+    }
+
+    .bctblright {
+        width:70%;
+        position:absolute;
+        left:30%;
+        top:20%;
+    }
+
+    .bctblrighttl {
+        
+        font-size: 2em;
+        color:white;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: bold;
+    }
+    .bctblrightdesc {
+        color:white;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1.3em;
+        width:80%;
+        line-height: 200%;
+    }
+    .bctblrightdesc a {
+        color:#0082c2;
+    }
+
+    .bctblrightdesc a:hover {
+        filter:brightness(110%);
+    }
+
+    .bctblbtm {
+        margin-top:10%;
+        display:flex;
+        justify-content: space-between;
+        width:80%;
+        color:grey;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+    
+    .white {
+        color:white;
+    }
+
+    .toncom {
+        position:relative;
+    }
+
+    .toncomleft {
+        width:60%;
+        margin-top:20%;
+
+    }
+
+    .toncomtl {
+        font-weight: bold;
+        font-size:4em;
+    }
+
+    .toncomdesc {
+        font-size:1.4em;
+        color:#728a96df;
+        width:80%;
+        }
+
+    .toncomright {
+        width:40%;
+    }
+    .toncomright img {
+        width:50%;
+        position:absolute;
+        left:50%;
+        top:-30%;
+    }
+    .apps {
+    padding: 80px 250px 120px 100px;
+    background-color: #f7f9fb;
+    margin-top:200px;
+    border-radius:3cm;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .appstl {
+font-weight: bold;
+        font-size:4em;
+    }
+
+    .appsdesc {
+        font-size:1.4em;
+        color:#728a96df;
+        width:48%;
+        text-align: center;
+    }
+
+
+
