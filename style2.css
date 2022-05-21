@@ -618,7 +618,7 @@ width:100%;
     }
 
     .appstl {
-font-weight: bold;
+        font-weight: bold;
         font-size:4em;
     }
 
@@ -628,6 +628,55 @@ font-weight: bold;
         width:48%;
         text-align: center;
     }
+.ecptop {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10%;
+}
 
+.ecptl {
+    font-weight: bold;
+    font-size:4em;
+}
 
+.ecpdesc {
+        font-size:1.4em;
+        color:#728a96df;
+        width:48%;
+        text-align: center;
+}
 
+.ecpbtm {
+    display:flex;
+    margin-top:5%;
+    justify-content: space-between;
+}
+
+.threecolumn {
+    display:flex;
+    flex-direction: column;
+}
+
+.threecolumn a {
+    width:90%;
+}
+
+.threecolumn img {
+    width:90%;
+    border-radius: 1cm;
+    margin-bottom:5%;
+}
+
+.semitl {
+    font-size:1.5em;
+        font-weight: bold;
+        color:black;
+        
+    }
+
+    .semidesc {
+        font-size:1.4em;
+        color:#728a96df;
+        
+}
