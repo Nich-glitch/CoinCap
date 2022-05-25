@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TON-The Open Network</title>
     <link href="./style2.css" rel="stylesheet"/>
+    <script src="./script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
         <a>Community</a>
         <a>Tools</a>
     </div>
-    <a class="source"><img src="./assets/github.svg"/>Github</a>
+    <a class="source"><img class="gitcat" src="./assets/github.svg"/>Github</a>
 </div>
     
 </nav>
@@ -42,10 +43,15 @@
         TON is a fully decentralized layer-1 blockchain designed by Telegram to onboard billions of users. It boasts ultra-fast transactions, tiny fees, easy-to-use apps, and is environmentally friendly.</p>
         <div class="buttons">
             <a class="button bluebtn" href="https://ton.org/community"> <b> Join the Community </b> </a>
-            <a class="button blackbtn" href="https://github.com/ton-blockchain" target="_blank"> <b> GitHub </b> </a>
+            <a class="button blackbtn" href="https://github.com/ton-blockchain" target="_blank"><img class="gitcat" src="./assets/github.svg"/> <b> GitHub </b> </a>
         </div>
 </div>
-<video src="./assets/dimond_1_VP9.29bcaf8e.webm"  autoplay loop muted> </video>
+<div class="videobackground">
+    <video class="undervideo" src="./assets/dimond_1_VP9.29bcaf8e.webm" > </video>
+</div>
+   <div class="videoshadow"></div>
+   
+   <video class="actualvideo" src="./assets/dimond_1_VP9.29bcaf8e.webm"  autoplay loop muted> </video>
 </div>
 </section>
 
@@ -60,7 +66,7 @@
 <div class="threebox">
         <div class="box">
             <div class="top">Transactions</div>
-            <div class="number">56,028,052</div>
+            <div class="number interval">56,028,052</div>
             <img class="icons" src="./assets/transactions.svg"/>
     </div>
     <div class="box">
@@ -100,14 +106,7 @@
 <section class="part3 container">
 
     <span class="tontl">TON timeline</span>
-    <div class="timeline"> 
-        <span class="dot"> &#8226; </span> 
-        <hr class="line" weight=none width=30%/>
-        <span class="dot"> &#8226; </span> 
-        <hr class="line" width=30%/>
-        <span class="dot"> &#8857; </span> 
-        <hr width=50% class=" line dashed"/>
-     </div>
+    
 <div class="tlinfo">
     <div class="tlblock">
         <span class="year">Late 2018</span><br/>
@@ -117,7 +116,7 @@
         <span class="year">2020</span><br/>
         <span class="yeardesc">Telegram was forced to cease active development of TON. A vibrant open-source community continues to maintain the network and build new TON functionality, bringing Telegram's design to fruition.</span>
     </div>
-    <div class="tlblock">
+    <div class="tlblock bigcircle">
         <span class="year">2022</span>
         <p class="yeardesc">TON becomes The Open Network. TON mainnet is fully live operational, hosting ultra-cheap, fast, and ecologically friendly transactions.</p>
         <a class="bluelink" href="#"> Roadmap > </a>
@@ -128,7 +127,7 @@
     <div class="bcatop">
         <span class="bcatl"> Blockchain Analysis </span>
         <p class="bcadesc">TON, Solana, and Ethereum 2.0 are examples of Proof of Stake blockchains. But key design and implementation differences mean TON comes out ahead on performance, versatility, and design.</p>
-        <a href="#" class="button bluebtn"> <img src="./assets/learn-more.svg"/> Learn More </a>
+        <a href="#" class="button bluebtn"> <img class="btnimg" src="./assets/learn-more.svg"/> Learn More </a>
     </div>
     <div class="bcabtm">
         <div class="bcatbl">
