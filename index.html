@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TON-The Open Network</title>
     <link href="./style2.css" rel="stylesheet"/>
-    <script src="./script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
@@ -16,7 +15,7 @@
 <a href="https://ton.org/analysis" class="banner"> Comparing TON, Ethereum 2.0, and Solana: How are they different? &#8226 Open details ></a>
 </head>
 <body>
-
+    
     <nav >
         <div class="container">
             <img class="logo" src ="./assets/logo-with-name.svg"/>
@@ -131,42 +130,57 @@
     </div>
     <div class="bcabtm">
         <div class="bcatbl">
-          <div class="first">
-                <span>Block time</span>
-            <span>Time-to-finality</span>
-            <p class="wrap">Simple transaction performance</p>
-            <p class="wrap">Complex transaction performance</p>
-            <span>Sharding support</span>
-            <p class="wrap">Cross-shard communication</p>
+          <div class="first row">
+            <img class="column" src="./assets/logo.svg"/> 
+            <img class="column" src="./assets/ether.svg"/> 
+            <img class="column" src="./assets/solana.svg"/> 
+          </div>  
+
+          <div class="first row">
+            <span class="tl column">TON</span>
+            <span class="tl column">Ethereum 2.0</span>
+            <span class="tl column">Solana</span>
+          </div>
+            
+            <div class="row">
+                <span class="column">Block time</span>
+                <span class="column">5 sec.</span>
+                <span class="column">12 sec.</span>
+                <span class="column">1 sec.</span>
+             </div>
+
+            <div class="row">
+                <span class="column">Time-to-finality</span>
+                <span class="column">Under 1 sec.</span>
+                <span class="column">6.4 sec.</span>
+                <a  class="column" href="#">10-15 min. &#8599;</a>
             </div>
-            <div class="second column">
-               <img src="./assets/logo.svg"/>
-               <span class="tl">TON</span>
-                <span>5 sec.</span>
-                <span>Under 1 sec.</span>
-                <span>High</span>
-                <span>High</span>
-                <p class="wrap">Max. 2<sup>60</sup> shards per workchain</p>
-                <span>Near-instant</span>
+
+            <div class="row">
+                <p class="wrap">Simple transaction performance</p>
+                <span class="column">High</span>
+                <span class="column">Potentially high</span>
+                <span class="column">High</span>
             </div>
-            <div class="column">
-                <img src="./assets/ether.svg"/>
-                <span class="tl">Ethereum 2.0</span>
-                <span>12 sec.</span>
-                <a href="#">10-15 min. &#8599;</a>
-                <span>Potentially high</span>
+
+            <div class="row">
+                <p class="wrap">Complex transaction performance</p>                
+                <span>High</span>
                 <span>Low</span>
-                <span>Max. 2<sup>6</sup> shards</span>
-                <span>Slow time-to-finality</span>
-            </div>
-            <div class="column">
-                <img src="./assets/solana.svg"/>
-                <span class="tl">Solana</span>
-                <span>1 sec.</span>
-                <span>6.4 sec.</span>
-                <span>High</span>
                 <a href="#">Very Low &#8599; </a>
+            </div>
+                
+            <div class="row">
+                <span>Sharding support</span>
+                <p class="wrap">Max. 2<sup>60</sup> shards per workchain</p>
+                <span>Max. 2<sup>6</sup> shards</span>
                 <span>None</span>
+            </div>
+
+            <div class="row">
+                <p class="wrap">Cross-shard communication</p>
+                <span>Near-instant</span>
+                <span>Slow time-to-finality</span> 
                 <span>None</span>
             </div>
         </div>
@@ -267,6 +281,6 @@
         </div>
 </div>
 </section>
-
+<script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
