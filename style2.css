@@ -770,28 +770,45 @@ width:100%;
 .threecolumn {
     display:flex;
     flex-direction: column;
+    
     }
 
 .threecolumn a {
     width:90%;
     }
 
-.threecolumn img {
-    width:90%;
-    border-radius: 1cm;
-    margin-bottom:5%;    
+.threecolumn .thumbnail {
+    width:100%;
+    height:130%;
+    border-radius: .5cm;
+    margin-bottom:5%;  
+    background-size: 100% 100%;  
+    background-position: center;
+    transition: all 0.3s;
+    
 }
+
+.threecolumn .thumbnail:hover {
+    background-size: 110% 110%;
+}
+
+.ecplink {
+    margin-top:40%;
+}
+
 
 .semitl {
     font-size:1.2em;
         font-weight: bold;
         color:black;
-        
+                
     }
 
     .semidesc {
         font-size:1.1em;
         color:#728a96df;
+        line-height: 150%;
+
         
 }
 
@@ -855,6 +872,7 @@ width:100%;
     padding-left:2%;
     
 }
+
 
 /*FINITO!*/
 
