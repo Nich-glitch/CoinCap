@@ -459,24 +459,22 @@ width:100%;
     padding-right:5px;
     display: inline-block;
    }
+
     .bcatbl {
-        display:flex;
-        flex-direction: column;
-        padding:20px 30px 10px 20px;
+        padding:32px;
         border: solid rgba(190, 177, 177, 0.722) 1px;
         border-radius: 1cm;
         margin-top:10%;
-        margin-left:5%;
-        
+                
     }
-    .bcatbl.row span{
-        display:flex;
-        justify-content: space-evenly;
-        
+
+    .bcatbl.row{
+        display:flex; 
         
     }
 
-   r .bcatbl span {
+
+    .bcatbl span {
         line-height: 400%;
     }
 
@@ -488,14 +486,9 @@ width:100%;
         font-weight: bold;
     }
     
-    .wrap {
-        line-height: normal;
-    }
-
     
-
     .bcadesc2 {
-        font-size:1.2em;
+        font-size:1em;
         color:#728a96b7;
         width:80%;
         text-align: center;
@@ -511,6 +504,8 @@ width:100%;
         color:#8ad1f4;
     }
 
+    /*Blockchain for Developers*/
+
     .black {
         background-color: rgb(44, 44, 49);
         padding-bottom:5%;
@@ -525,7 +520,7 @@ width:100%;
     .bctl {
 
         font-weight: bold;
-        font-size:4em;
+        font-size:3em;
         color:white;
         padding-top:5%;
     }
@@ -533,10 +528,14 @@ width:100%;
     .bcdesc {
         text-align: center;
         color:rgb(145, 138, 138);
-        font-size: 1.4em;
+        font-size: 1.1em;
         width:50%;
     }
 
+    .bcbuttons {
+        display:flex;
+        margin-left:30%;
+    }
     .git {
         padding-right:10px
     }
@@ -571,13 +570,13 @@ width:100%;
         display: flex;
         flex-direction: column;
         width:30%;
-        font-size:1.2em;
+        font-size:1.1em;
         font-weight: bold;
         width:20%;
         margin-left:5%;
         color:white;
         line-height: 400%;
-        margin-top:5%;
+        margin-top:3%;
         
     }
 
@@ -598,7 +597,7 @@ width:100%;
 
     .bctblrighttl {
         
-        font-size: 2em;
+        font-size: 1.3em;
         color:white;
         font-family: 'IBM Plex Mono', monospace;
         font-weight: bold;
@@ -606,7 +605,7 @@ width:100%;
     .bctblrightdesc {
         color:white;
         font-family: 'IBM Plex Mono', monospace;
-        font-size: 1.3em;
+        font-size: 1.1em;
         width:80%;
         line-height: 200%;
     }
@@ -625,7 +624,7 @@ width:100%;
         width:80%;
         color:grey;
         font-family: 'IBM Plex Mono', monospace;
-        font-size: 1.3em;
+        font-size: 1.1em;
         font-weight: bold;
     }
     
@@ -645,11 +644,11 @@ width:100%;
 
     .toncomtl {
         font-weight: bold;
-        font-size:4em;
+        font-size:3em;
     }
 
     .toncomdesc {
-        font-size:1.4em;
+        font-size:1.1em;
         color:#728a96df;
         width:80%;
         }
@@ -664,26 +663,83 @@ width:100%;
         top:-30%;
     }
     .apps {
-    padding: 80px 250px;
+    padding: 5% 20% 15% 20%;
     background-color: #f7f9fb;
     margin-top:200px;
-    border-radius:3cm;
+    border-radius:1.5cm;
     display:flex;
     flex-direction: column;
     align-items: center;
+    position:relative;
+    overflow: hidden;
     }
 
     .appstl {
         font-weight: bold;
-        font-size:4em;
+        font-size:3em;
     }
 
     .appsdesc {
-        font-size:1.4em;
+        font-size:1.1em;
         color:#728a96df;
-        width:48%;
+        width:70%;
         text-align: center;
     }
+
+    .appicon {
+        width:8%;
+        border-radius:20%;
+        position:absolute;
+        filter: drop-shadow(25px 5px .5rem rgba(172, 175, 179, 0.767));
+         
+    }
+
+    .appicon.v {
+        left:7.5%;
+        top:59%;
+    }
+
+   .wink {
+       left:7.5%;
+       top:84%;
+   }
+
+   .diamond {
+       left:18%;
+       top:64%;
+   }
+
+   .circles {
+       left:18%;
+       top:89%;
+   }
+
+   .whale {
+       left:28.5%;
+       top:73%;
+   }
+
+   .bunny {
+       right:28.5%;
+       top:73%;
+   }
+
+   .w {
+       right:18%;
+       top:64%;
+   }
+
+   .hexagon {
+       right:18%;
+       top:89%;
+   }
+
+   .dimension {
+       right:7.5%;
+       top:73%;
+   }
+
+
 .ecptop {
     display:flex;
     flex-direction: column;
@@ -693,11 +749,11 @@ width:100%;
 
 .ecptl {
     font-weight: bold;
-    font-size:4em;
+    font-size:3em;
 }
 
 .ecpdesc {
-        font-size:1.4em;
+        font-size:1.1em;
         color:#728a96df;
         width:48%;
         text-align: center;
@@ -725,14 +781,15 @@ width:100%;
 }
 
 .semitl {
-    font-size:1.5em;
+    font-size:1.2em;
         font-weight: bold;
         color:black;
         
     }
 
     .semidesc {
-        font-size:1.4em;
+        font-size:1.1em;
         color:#728a96df;
         
 }
+
