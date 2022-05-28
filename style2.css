@@ -49,6 +49,7 @@ body {
     margin:0;
     font-family: 'Mulish', sans-serif;
     
+    
 }
 
 a {
@@ -357,6 +358,7 @@ width:100%;
 
     .part3 {
         padding-top:5%;
+        
     }
 
     .tontl {
@@ -388,7 +390,7 @@ width:100%;
 
     .tlinfo::after {
         content:"";
-        width:100%;
+        width:75%;
         border-top: 2px dashed rgba(155, 197, 237, 0.467);
         position:absolute;
         top:30%;
@@ -792,4 +794,67 @@ width:100%;
         color:#728a96df;
         
 }
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.footercolumn {
+    display:flex;
+    flex-direction: column;
+    margin-top:10%;
+    width:14%;
+    
+}
+
+.footerlist {
+    font-size: 1.1em;
+    color:rgb(122, 139, 148);
+    line-height: 200%;
+    
+}
+
+.footerlist:hover {
+    color:#2594d4d3;
+    cursor: pointer;
+}
+
+.wrap {
+    line-height: 100%;
+}
+
+.footerton {
+    margin-top:-11%;
+    padding-right:5%;
+}
+
+.footertl {
+    font-weight:bold;
+    font-size: 1.2em;
+    color:black;
+    margin-bottom:3%;
+}
+
+.hrline {
+    height:1px;
+    background-color:rgba(153, 154, 155, 0.5);
+    border:none;
+}
+
+.footerbtm {
+    margin-top:3%;
+    color:rgb(122, 139, 148);
+    padding-bottom:10%;
+}
+
+.footericon {
+    width:5%;
+    float:right;
+    padding-left:2%;
+    
+}
+
+/*FINITO!*/
 
