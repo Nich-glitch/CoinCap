@@ -1,14 +1,24 @@
-let intervalnum = document.querySelector(".interval");
-let counter = intervalnum.textContent;
-let counter2 = counter.replace(/[","]/g , "");
-console.log(counter2);
-let transaction = Number(counter2) + 1;
-// console.log(transaction);
-// console.log(typeof counter);
+function get_markets() {
+    return fetch("https://api.coincap.io/v2/markets")
+    .then ((response) => {
+       return response.json(); 
+})
+.then ((data) => {
+    let markets=data;
+    return (data);
+});
+}
 
 
-setInterval(()=> {
-    // console.log(transaction+=3);
-    intervalnum.textContent=transaction+=3;
-    
-}, 2000);
+function render_market() {
+    let market_info = document.querySelector(".javalist") ;
+
+    let row_element= document.createElement("div");
+    let rank_element=docuemnt.createElement("span");
+    let name_element= document.createElement("span");
+    let price_element= document.createElement("span");
+    let market_cap_element= document.createElement("span");
+
+    market_info.appendChild(row_element);
+    row_element.appendChild(rank_element, name_element, price_element);
+}
